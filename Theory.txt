@@ -1,0 +1,55 @@
+1. Explain the purpose and advantages of NumPy in scientific computing and data analysis. How does it
+enhance Python's capabilities for numerical operations?
+Ans:- Numpy is used for its fast and efficient numerical calculation in python.
+      It provides faster operations and consumes less meory as compared to lists tuples and has many built in functins to do complex calculations
+
+
+2. Compare and contrast np.mean() and np.average() functions in NumPy. When would you use one over the
+other?
+Ans:-'np.mean()' and 'np.average()' both calculate the simple average for eg average of marks .But in case where we need to find weighted average we had to use 'np.average()' and this is major difference between them. 
+
+
+3. Describe the methods for reversing a NumPy array along different axes. Provide examples for 1D and 2D
+arrays.
+Ans:-To reverse
+     1D Array: arr[::-1] 
+     2D Array: arr[::-1, ::-1]
+
+
+4. How can you determine the data type of elements in a NumPy array? Discuss the importance of data types
+in memory management and performance.
+Ans:-To determine data types we use 'arr.dtype()' function.
+     If we use correct data types than it ensurse correct memory management and faster operation.  
+
+
+5. Define ndarrays in NumPy and explain their key features. How do they differ from standard Python lists?
+As:-'ndarrays' is a multidimensional array of same data type .
+    'ndarrays' are more memory efficient, faster and it provides advance element wise operation.
+
+
+6. Analyze the performance benefits of NumPy arrays over Python lists for large-scale numerical operations.
+Ans:-Numpy is considered as faster and more efficient as compared to python list for large scale operation due to there fixed data type and also it was created using 'C' language which is considered as the  fast language.
+
+7. Compare vstack() and hstack() functions in NumPy. Provide examples demonstrating their usage and
+output.
+Ans:- When arrays need to be joint horizontally we use hstack().
+      When arrays need to be joint vertically we use vstack().
+      Eg:-
+          np.vstack([a, b])
+          np.hstack([a, b])
+
+
+8. Explain the differences between fliplr() and flipud() methods in NumPy, including their effects on various
+array dimensions.
+Ans:- 'flipr()'-Flips the array left to right.
+      'flipud()'- Flips the array upside down.
+
+
+9. Discuss the functionality of the array_split() method in NumPy. How does it handle uneven splits?
+Ans:- It splits the array in sub arrays.
+      It tries to split the array as even as possible.
+
+10. Explain the concepts of vectorization and broadcasting in NumPy. How do they contribute to efficient array
+operations?
+Ans:-Vectorization helps to apply operations to entire arrays without using loops etc that speed of the computaion.
+     Broadcasting expands the array into subparts to make it suitable for operation making it more effecient and concise.
